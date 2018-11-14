@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--amanda oliveira -->
+<!--Natanael Luiz -->
 	<title><?php print $cabecalho_title; ?> </title>
 
 </head>
