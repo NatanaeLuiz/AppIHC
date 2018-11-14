@@ -194,9 +194,9 @@ font-style: italic;
 .produto-back {
 background-color: #959595;
 margin-top: 1em;
-border-top: 2px solid #ccc;
+border-top: 2px solid red;
 }
 .cores label img {
-border: 2px solid #ccc;
+border: 2px solid red;
 }
 	
