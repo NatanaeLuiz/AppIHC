@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--amanda oliveira -->
 	<title><?php print $cabecalho_title; ?> </title>
 
 </head>
