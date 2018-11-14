@@ -10,13 +10,18 @@ padding-top: 8px;
 }
 .menu-opcoes ul	{
 font-size: 15px;
+margin-top: 10px;
 }
 .menu-opcoes ul li	{
 display:	inline;
 margin-left: 20px;
+margin-right: 20px;
 }
 .menu-opcoes a	{
-color: #003366;
+color: #FFFFFF;
+text-decoration:none;
+/*background-color: #333333;;
+border-radius: 4px; */
 }
 body	{
 color: #333333;
@@ -34,6 +39,8 @@ header{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	background: #000000;
+	height: 40px;
 }
 .sacola{
 	position: absolute;
@@ -42,39 +49,43 @@ header{
 
 }
 .busca,.menu-departamentos	{
-			background-color: #DCDCDC;
-			font-weight:	bold;
-			text-transform:	uppercase;
-			margin-right: 10px;
-			width: 230px;
-			float: left;
+	background-color: #DCDCDC;
+	font-weight: bold;
+	text-transform:	uppercase;
+	margin-right: 10px;
+	width: 230px;
+	float: left;
 	}
 .busca h2,.busca form, .menu-departamentos h2	{
-			margin: 10px;
-	}
+	margin: 10px;
+}
+
+.menu-departamentos{
+	clear: left;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	
+}
 .menu-departamentos nav ul li	{
-			background-color:	white;
-			margin-bottom: 1px;
-			padding: 5px 10px;
-			list-style: none;
-	}
+	background-color:	white;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+	list-style: none;
+
+
+}
 .menu-departamentos a	{
-			color: #333333;
-			text-decoration:	none;
-	}
+	color: #333333;
+	text-decoration:	none;
+}
 .busca input[type=search]	{
 					width: 170px;
 	}
-.menu-departamentos{
-	clear: left;
-}
+
 .destaque	{
 	margin-top: 10px;
 }
-.menu-departamentos	{
-	margin-top: 10px;
-	padding-bottom: 10px;
-}
+
 .painel{
 	margin: 10px 0;
 	padding: 10px; 	
@@ -107,15 +118,123 @@ header{
 	text-align: center;
 	text-decoration: none;
 }
-footer{
-	background-image: url(../img/fundo-rodape.png);
+.painel img{
+	margin-left: -60%;
 }
-.social a{
+
+footer {
+background-image: url(../img/fundo-rodape.png);
+}
+.social a {
+	/* tamanho da imagem */
 	height: 32px;
 	width: 32px;
+	/* image replacement */
 	display: block;
-	text-align: -9999px;
+	text-indent: -9999px;
 }
-.social a[href*="facebook.com"]{
-	background-image: url(../img/facebook.png);
+
+.social a[href*="facebook.com"] {
+background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+background-image: url(../img/googleplus.png);
+}
+
+footer {
+clear: both;
+padding: 20px 0;
+}
+
+footer .container {
+position: relative;
+}
+
+.social {
+position: absolute;
+top: 12px;
+right: 0;
+}
+
+.social li {
+float: left;
+margin-left: 25px;
+}
+
+p:first-letter {
+font-weight: bold;
+}
+
+.menu-opcoes a:hover{
+	color: #F4D23D;
+}
+.menu-opcoes a:active{
+	color: #867dc6;
+}
+
+.menu-departamentos li ul{
+	display: none;
+}
+
+.menu-departamentos li:hover ul{
+	display: block;
+}
+
+
+.menu-departamentos ul ul li{
+	background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a:before{
+
+	content: '\272A';
+	padding-right: 3px;
+}
+
+.painel h2:before {
+	content: '\2756';
+	padding-right: 5px;
+	opacity: 0.4;
+}
+
+.painel {
+border-radius: 4px;
+box-shadow: 1px 1px 4px #999;
+}
+
+.painel h2 {
+text-shadow: 3px 3px 2px #FFF;
+box-shadow: inset 1px 1px 4px #999;
+}
+
+.busca {
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+.painel h2 {
+	color: rgba(255,255,255,0.8);
+text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+
+.novidades {
+background-color: #f5dcdc;
+background: linear-gradient(#626CFF, #bebef4);
+}
+
+.mais-vendidos {
+background: #dcdcf5;
+background: linear-gradient(#69634E ,#8E8C91);
+}
+
+figcaption {
+    display: block;
+}
+.painel figcaption {
+    margin-left: -40px;
 }

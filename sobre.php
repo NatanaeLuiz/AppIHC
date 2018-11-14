@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 			<meta	charset="utf-8">
 			<title>Sobre	a	Mirror	Fashion</title>
 			<link rel="stylesheet" type="text/css" href="css/sobre.css">
-
-
-	<!-- Por favor Mais uma vez-->
-	<!-- Amanda alterar aq novamente!-->
-	<head>
-			<meta	charset="utf-8">
-			<title>Sobre	a	Mirror	Fashion</title>
-			<link rel="stylesheet" type="text/css" href="css/estilo.css">
-
 	</head>
 	<body>
 			<img	src="img/logo.png" alt="Logo	da	Mirror	Fashion">
 			<h1>A	Mirror	Fashion</h1>
 			<p>
 					A	<strong>Mirror	Fashion</strong>	é	a	maior	empresa	comércio	eletrônico	no	segmento	de
-					moda	em	todo	o	mundo.	Fundada	em	1932,	possui	filiais	em	124	países,	sendo	líder	de
+					moda	em	todo	o	mundo.	Fundada	há <?php print date("Y")-1932;?> anos,	possui	filiais	em	124	países,	sendo	líder	de
 					mercado	com	mais	de	90%	de	participação	em	118	deles.
 			</p>
 			<p>
