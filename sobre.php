@@ -8,14 +8,23 @@
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 480px)">
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 720px)">
-	<title>Sobre a Mirror fashion</title>
+	<title>Sobre a GM-Multimarcas</title>
+
+	<!-- REDES SOCIAIS DO FOOTER -->
+	<link rel="stylesheet" type="text/css" href="css/social_footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- FIM REDES SOCIAIS -->
 </head>
 <body>
 	<header class="container">
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
+		<h1>
+			<a href="index.html"> 
+				<img src="img/logom.png" alt="Gm Multimarcas" style="width: 300px;">
+			</a>
+		</h1>
 		<p class="sacola">Nenhum item na sacola de compras</p>
 		<nav class="menu-opcoes">
 			<ul>
@@ -32,7 +41,7 @@
 
 	<section class="container">
 
-		<h2>A Mirror Fashion</h2>
+		<h2>A GM Multimarcas</h2>
 
 		<p>A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
 		Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
@@ -95,12 +104,23 @@
 
 	<footer>
 		<div class="sobre container">
-			<img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
-			<ul class="social">
-				<li><a href="http://facebook.com">Facebook</a></li>
-				<li><a href="http://twitter.com">Twitter</a></li>
-				<li><a href="http://plus.google.com">Google+</a></li>
-			</ul>			
+			<img src="img/logom.png" alt="Logo Mirror Fashion" style="filter: invert(100%); width: 200px;">
+			
+			<div class="social">
+			<!--CSS das Redes Sociais está em: css/social_footer.css -->
+				<a href="https://www.facebook.com/ideiascriativascz" target="_blank">
+					<i class="fa fa-facebook-f" id="social_topo-f"style="font-size:24px; cursor: pointer;"></i>
+				</a>
+				<a href="https://www.instagram.com/gmmultimarcascz/" target="_blank">
+					<i class="fa fa-instagram" id="social_topo-i"style="font-size:24px; cursor: pointer;"></i></a>
+				<a > 
+					<i class="fa fa-twitter" id="social_topo-t"style="font-size:24px; cursor: pointer;"></i>
+				</a>
+				<a >
+					<i class="fa fa-youtube" id="social_topo-y"style="font-size:24px; cursor: pointer;"></i>
+				</a>
+			</div>
+
 		</div>
 		
 	</footer>
