@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>Checkout Mirror Fashion</title>
+	<title>Checkout GM Multimarcas</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
@@ -131,5 +131,8 @@
 	<script src="js/converteMoeda.js"></script>
 	<script src="js/testaConversao.js"></script>
 	<script src="js/total.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/inputmask-plugin.js"></script>
 </body>
 </html>

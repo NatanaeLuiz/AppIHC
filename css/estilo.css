@@ -129,6 +129,7 @@ header{
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	color: #FFFFFF;
 }
 
 .painel a {
@@ -191,19 +192,18 @@ footer .container{
 }
 
 .painel h2:before {
-	content: '\2756';
 	padding-right: 5px;
-	opacity: 0.4;
+	opacity: 0.;
 }
 
 .painel {
 	border-radius: 4px;
 	box-shadow: 1px 1px 4px #999;
 }
-
+/*
 .painel h2 {
 	text-shadow: 3px 3px 2px #fff;
-}
+}*/
 
 .busca {
 	border-top-left-radius: 4px;
@@ -229,4 +229,15 @@ background: linear-gradient(#69634E ,#8E8C91);
 
 .painel li:nth-child(2n):hover {
 transform: scale(1.2) rotate(5deg);
+}
+
+.tamanhos output {
+display: inline-block;
+height: 44px;
+width: 44px;
+line-height: 44px;
+text-align: center;
+border: 3px solid #666;
+border-radius: 50%;
+color: #555;
 }

@@ -77,6 +77,15 @@
 		</ul>
 	</section>
 
+	<section class="container">
+		<h2>Videos</h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Tb06abHE4hY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</section>
+	<section class="container">
+		<h2>Localização</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.245824208626!2d-38.55062819964529!3d-6.892600888161605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a47398d2be15b1%3A0xc1bdf599bc3fdae2!2sR.+J%C3%BAlio+Paje%C3%BA%2C+57+-+Lot.+dos+Medicos%2C+Cajazeiras+-+PB%2C+58900-000!5e0!3m2!1spt-BR!2sbr!4v1542319700918" width="940" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</section>
+	
 	<?php include("rodape.php"); ?>
 
 </body>

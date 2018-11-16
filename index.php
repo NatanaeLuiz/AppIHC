@@ -12,8 +12,9 @@
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 480px)">
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 720px)">
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
-
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script' rel='stylesheet'>
 	
+</head>
 <body>
 	<?php include("cabecalho.php"); ?>
 
@@ -168,7 +169,14 @@
 	
 	<?php include("rodape.php"); ?>
 	
+	<script src="js/trocaBanner.js"></script>
+	<script src="js/jquery.js"></script>
+	<script>
+		$('.novidades').addClass('painel-compacto');
+		$('.novidades button').click(function() {
+			$('.novidades').removeClass('painel-compacto');
+		});
+	</script>
 
-</body>
 </body>
 </html>
